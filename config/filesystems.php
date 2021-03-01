@@ -30,6 +30,11 @@ return [
 
     'disks' => [
 
+        'laravel_8_data' => [
+            'driver' => 'local',
+            'root' => "C:/wamp64/www/laravel/laravel_8_data/",
+        ],
+
         'local' => [
             'driver' => 'local',
             'root' => storage_path('app'),

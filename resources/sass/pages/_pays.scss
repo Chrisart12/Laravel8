@@ -1,0 +1,75 @@
+
+      .selectBox {
+        position: relative;
+      }
+
+      .selectBox select {
+        width: 100%;
+        font-weight: bold;
+      }
+
+      .overSelect {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+      }
+
+      #funding_checkboxes {
+        display: none;
+        border: 1px #dadada solid;
+      }
+
+      #funding_checkboxes label {
+        display: block;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+
+      #funding_checkboxes input{
+        margin-right: 10px;
+      }
+
+      #funding_checkboxes label:hover {
+        background-color: rgb(87, 211, 228);
+        color: white;
+      }
+
+      .funding_method_hide {
+          display: none;
+      }
+
+      .funding_helper {
+        position: fixed;
+        background-color: #ffccbc;
+        color: #d50000;
+        font-size: 16px;
+        border-radius: 10px;
+        text-align: center;
+        padding: 20px 50px 20px 50px;
+        border: 1px solid #ffab91;
+        left: 50%;
+        top: 50%;
+        z-index: 100;
+        transform: translate(-50%, -50%);
+        display: none;
+      }
+
+      .funding-submit-btn_disable
+      {
+        cursor: not-allowed;
+        pointer-events: none;
+        color: #c0c0c0;
+        background-color: #ffffff;
+      }
+
+      .funding_amount_validation_information {
+        font-size: 18px;
+        border: 1px solid blue;
+        text-align: center;
+        border-radius:  10px;
+        color: blue;
+        padding-top: 30px;
+        padding-bottom: 30px;
+      }

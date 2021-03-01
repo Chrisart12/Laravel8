@@ -166,6 +166,8 @@ return [
         /*
          * Package Service Providers...
          */
+        'Laracasts\Utilities\JavaScript\JavaScriptServiceProvider', //Ajouté le 19/02/2021
+
 
         /*
          * Application Service Providers...

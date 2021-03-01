@@ -17,7 +17,9 @@ class User extends Authenticatable
      * @var array
      */
     protected $fillable = [
-        'name',
+        'firstname',
+        'lastname',
+        'picture',
         'email',
         'password',
     ];
@@ -40,4 +42,12 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+    /**
+     * The users that belong to the role.
+     */
+    public function pays()
+    {
+        return $this->belongsToMany(Pay::class);
+    }
 }
